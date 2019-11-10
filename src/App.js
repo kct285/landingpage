@@ -16,6 +16,7 @@ class App extends Component {
   handleClick(event){
     document.querySelector(event.target.name).scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
   }
+  
   render(){
     return (
       <div className="App">
