@@ -11,7 +11,7 @@ export default function Home(props){
 
                 <div id="home_text"> 
                     <h1 className="quotation"> Disrupting <br></br> Disruption.  </h1>
-                    <p id="home_desc">Procrastinate from social media.</p>
+                    <p id="home_desc">Stop spending your nights and weekends at the AB. <br></br>Procrastinate from social media.</p>
 
                     <button className="download1"> FREE DOWNLOAD</button> 
                 </div>

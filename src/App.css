@@ -140,13 +140,13 @@ nav a:hover {
 
 #home_text{
   position: relative;
-  top:80px;
+  top:75px;
   left: 110px;
   color:white;
 }
 
 #home_desc{
-  font-size: 20px;
+  font-size: 18px;
 }
 
 
@@ -226,18 +226,46 @@ nav a:hover {
 #featureimg{
   position:relative;
   top:40px;
-  left:320px;
+  left:60px;
+}
+.flex2{
+  display:flex;
+}
+
+.featureimg{
+  margin-top:20px;
+  margin-bottom:20px;
+  margin-left:20px;
 }
 
 #featurestxt{
   position:relative;
-  top:120px;
-  left:100px;
+  top:100px;
+  left:50px;
+}
+
+#colordescp{
+  margin-top:30px;
+}
+
+#timedescp{
+  margin-top:70px;
+}
+
+#uxdescp{
+  margin-top:75px;
+}
+
+#try{
+  position:relative;
+  top:50px;
+  left:30px;
 }
 
 h2{
   font-size: 50px;
 }
+
 
 
 #testimonials{
@@ -263,6 +291,17 @@ h2{
   margin-top:90px;
 }
 
+
+
+#supportxt{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:40px;
+  position: relative;
+  left:600px;
+  text-decoration: none;
+}
 
 
 
