@@ -282,15 +282,20 @@ nav a:hover {
 }
 
 #colordescp{
-  margin-top:30px;
+  margin-top:45px;
+  margin-left:10px;
 }
 
 #timedescp{
-  margin-top:70px;
+  margin-top:75px;
+  margin-left:10px;
+
 }
 
 #uxdescp{
   margin-top:75px;
+  margin-left:10px;
+
 }
 
 #try{

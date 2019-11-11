@@ -1,7 +1,11 @@
 import React, {Component} from 'react';
 
 var pics = [
+    "https://previews.dropbox.com/p/thumb/AAldrR2nvH9vW8DOEXpfltlZCKMk52WDQnivu-V-bfeyYC-DUUyFw9-d0y14qnDXqQDCD_pZyk7wvXkoPlPAD5drWML5a_gAVcdJAZXQK-0dISCBEmEM2kO5O0_Lfhe187dffoYJbLGfuT_NWvbf4TDeCk8_0Mc5rZ5YjdwFt3hvsqJKGarnJcd90fgU8Qb24dYwhB2zhwfcBgkVRdfmMbGYxZFl8h6djZXqtdcl8aS8uYTvCizN8N_ySa4R9Fmx2f76PbrT_jwrU2tgJyE1sDDNrkfm21h80tk3FZA451-LODBWvOLa8aGKMp3kLZKsVnzifV-JRnF_uoDBNnjLLFGL/p.png?fv_content=true&size_mode=5",
     "https://i.imgur.com/TarlUAm.jpg",
+    "https://cdn1.imggmi.com/uploads/2019/11/11/59d7809f42c00aec5e2805a594da427c-full.png",
+    "https://cdn1.imggmi.com/uploads/2019/11/11/9ec2bf6102f2282597138e8e9da3d728-full.png",
+    "https://cdn1.imggmi.com/uploads/2019/11/11/241c34ec5cd0e5699454aba147ba99cf-full.png",
 
 ]
 
@@ -34,7 +38,6 @@ export default class Features extends Component{
                         <img className="featureimg" src="https://cdn1.imggmi.com/uploads/2019/11/9/cfb9fdf24c58ca6dd594bef52152627c-full.png" width="60px" alt="icon"/> <br></br>
                         <img className="featureimg" src="https://cdn1.imggmi.com/uploads/2019/11/9/dc0fe207d699eb6d9e0bec9f2b3db6d7-full.png"width="60px" alt="icon"/> 
 
-                        <img id="try" src="https://cdn1.imggmi.com/uploads/2019/11/10/2864dbe500a946c35c4e2559e315e416-full.png" width="100px"/>
 
                         </div>
 
@@ -50,6 +53,9 @@ export default class Features extends Component{
 
 
                     </div>
+
+                    <img id="try" src="https://cdn1.imggmi.com/uploads/2019/11/10/2864dbe500a946c35c4e2559e315e416-full.png" width="100px"/>
+
                     
                         
                        
@@ -59,11 +65,11 @@ export default class Features extends Component{
                 <div>
                     <img id="featureimg" src={pics[this.state.value]} width="900px" alt="facebook"/>
                     <div>
-                        <input type="range" min="0" max="6" value={this.state.value} className="slider" onChange={this.handleMove}/>
+                        <input type="range" min="0" max="4" value={this.state.value} className="slider" onChange={this.handleMove}/>
                     </div>
                 </div>
                 
-                
+                {/* change max  */}
 
 
             </div>
