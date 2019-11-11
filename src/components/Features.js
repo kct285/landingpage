@@ -1,22 +1,30 @@
 import React, {Component} from 'react';
 
 var pics = [
-    "https://i.imgur.com/TarlUAm.jpg",
+    "https://i.imgur.com/umOwFSM.jpg",
+    "https://i.imgur.com/8akcS4l.jpg",
+    "https://i.imgur.com/2yyaKRu.jpg"
 
 ]
-
+const baseImg = "https://i.imgur.com/eMWeUca.jpg"
 
 export default class Features extends Component{
     constructor(props){
         super(props);
         this.state = {
-            value: 0//place image for original facebook here
+            value: 0,//place image for original facebook here
+            img: baseImg
         }
         this.handleMove = this.handleMove.bind(this);
     }
 
     handleMove(event){
-        this.setState({value:event.target.value})
+        if (this.state.value===1){
+            this.setState({value:0, img:baseImg})
+        }
+        else{
+            this.setState({value:1, img: pics[Math.floor(Math.random() * pics.length)]})
+        }
     }
 
     render(){
@@ -55,14 +63,15 @@ export default class Features extends Component{
                        
                     
                 </div>
-
                 <div>
-                    <img id="featureimg" src={pics[this.state.value]} width="900px" alt="facebook"/>
-                    <div>
-                        <input type="range" min="0" max="6" value={this.state.value} className="slider" onChange={this.handleMove}/>
-                    </div>
-                </div>
+
+                <img id="featureimg" src={this.state.img} width="900px" alt="facebook"/>
+                <label className="switch">
+                    <input onChange={this.handleMove} type="checkbox"/>
+                    <span className="slider round"></span>
+                </label>
                 
+                </div>
                 
 
 
