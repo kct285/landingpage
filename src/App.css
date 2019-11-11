@@ -315,15 +315,20 @@ nav a:hover {
 }
 
 #colordescp{
-  margin-top:30px;
+  margin-top:45px;
+  margin-left:10px;
 }
 
 #timedescp{
-  margin-top:70px;
+  margin-top:75px;
+  margin-left:10px;
+
 }
 
 #uxdescp{
   margin-top:75px;
+  margin-left:10px;
+
 }
 
 #try{
@@ -347,10 +352,7 @@ h2{
   top:80px;
 }
 
-/* .support{
-  background-image: linear-gradient(to top, #88d3ce 0%, #6e45e2 100%);
-  z-index: 99;
-} */
+
 
 #download2{
   display: block;

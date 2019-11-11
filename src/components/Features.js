@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
 
-var pics = [
+const pics = [
     "https://i.imgur.com/umOwFSM.jpg",
     "https://i.imgur.com/8akcS4l.jpg",
     "https://i.imgur.com/2yyaKRu.jpg"
 
 ]
+
 const baseImg = "https://i.imgur.com/eMWeUca.jpg"
 
 export default class Features extends Component{
@@ -17,7 +18,9 @@ export default class Features extends Component{
         }
         this.handleMove = this.handleMove.bind(this);
     }
-
+    componentDidMount(){
+        pics.forEach((pic)=>(new Image().src = pic))
+    }
     handleMove(event){
         if (this.state.value===1){
             this.setState({value:0, img:baseImg})
