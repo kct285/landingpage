@@ -37,6 +37,7 @@ export default class Features extends Component{
 
                 <div id="featurestxt">
                     <h2>Features</h2>
+                    <p> Whether you're working on FoF or GPS, these features <br></br>are designed to curb your procrastination habits. </p>
 
                     <div className="flex2">
 
