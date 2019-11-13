@@ -315,19 +315,16 @@ nav a:hover {
 }
 
 #colordescp{
-  margin-top:45px;
-  margin-left:10px;
+  margin-top:30px;
 }
 
 #timedescp{
   margin-top:75px;
-  margin-left:10px;
 
 }
 
 #uxdescp{
   margin-top:75px;
-  margin-left:10px;
 
 }
 
@@ -353,6 +350,15 @@ h2{
 }
 
 
+#free{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  left:480px;
+  margin-top:110px;
+}
+
 
 #download2{
   display: block;
@@ -360,7 +366,7 @@ h2{
   margin-right: auto;
   position:relative;
   margin-bottom:90px;
-  margin-top:90px;
+  margin-top:30px;
 }
 
 
@@ -374,6 +380,7 @@ h2{
   left:600px;
   text-decoration: none;
 }
+
 
 
 
