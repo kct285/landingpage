@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 
 const pics = [
-    "https://i.imgur.com/umOwFSM.jpg",
-    "https://i.imgur.com/8akcS4l.jpg",
-    "https://i.imgur.com/2yyaKRu.jpg"
+    "/features2.png",
+    "/features3.png",
+    "/features4.png"
 
 ]
 
-const baseImg = "https://i.imgur.com/eMWeUca.jpg"
+const baseImg = '/features1.png'
 
 export default class Features extends Component{
     constructor(props){
@@ -37,16 +37,16 @@ export default class Features extends Component{
 
                 <div id="featurestxt">
                     <h2>Features</h2>
-                    <p> Whether you're working on FoF or GPS, these features <br></br>are designed to curb your procrastination habits. </p>
+                    <p id="featuredesc"> Whether you're working on FoF or GPS, these features <br></br>are designed to curb your procrastination habits. </p>
 
                     <div className="flex2">
 
                         <div>
-                        <img className="featureimg" src="https://cdn1.imggmi.com/uploads/2019/11/9/4ea884cfff6734eec9b596688ca534a6-full.png" width="60px" alt="icon"/> <br></br>
-                        <img className="featureimg" src="https://cdn1.imggmi.com/uploads/2019/11/9/cfb9fdf24c58ca6dd594bef52152627c-full.png" width="60px" alt="icon"/> <br></br>
-                        <img className="featureimg" src="https://cdn1.imggmi.com/uploads/2019/11/9/dc0fe207d699eb6d9e0bec9f2b3db6d7-full.png"width="60px" alt="icon"/> 
+                        <img className="featureimg" src={process.env.PUBLIC_URL + '/icon1.png'} width="60px" alt="icon"/> <br></br>
+                        <img className="featureimg" src={process.env.PUBLIC_URL + '/icon2.png'} width="60px" alt="icon"/> <br></br>
+                        <img className="featureimg" src={process.env.PUBLIC_URL + '/icon3.png'} width="60px" alt="icon"/> 
 
-                        <img id="try" src="https://cdn1.imggmi.com/uploads/2019/11/10/2864dbe500a946c35c4e2559e315e416-full.png" width="100px"/>
+                        <img id="try" src={process.env.PUBLIC_URL + '/tryitout.png'} width="170px"/>
 
                         </div>
 
@@ -81,7 +81,7 @@ export default class Features extends Component{
 
             </div>
 
-            <img id="testimonials" src="https://cdn1.imggmi.com/uploads/2019/11/9/b539fdd05ff614f9700e16582a46d17b-full.png" width="800px" alt="Our fans"/>
+            <img id="testimonials" src={process.env.PUBLIC_URL + '/reviews.png'} width="800px" alt="Our fans"/>
 
         </div>
         )

@@ -112,10 +112,7 @@ nav a {
   padding: 8px;
 }
 
-/* nav a:hover{
-  color:rgb(255, 191, 128);
 
-} */
 
 nav a::before{
   content: '';
@@ -200,6 +197,8 @@ nav a:hover {
   z-index: 99;
 }
 
+
+
 .flex{
   display: flex;
   
@@ -213,12 +212,12 @@ nav a:hover {
 }
 
 #home_desc{
-  font-size: 18px;
+  font-size: 23px;
 }
 
 
 .quotation{
-  font-size: 80px;
+  font-size: 70px;
 }
 
 
@@ -303,9 +302,11 @@ nav a:hover {
 }
 
 .featureimg{
+  position:relative;
+  top:40px;
+  left:70px;
   margin-top:20px;
   margin-bottom:20px;
-  margin-left:20px;
 }
 
 #featurestxt{
@@ -315,23 +316,32 @@ nav a:hover {
 }
 
 #colordescp{
-  margin-top:30px;
+  margin-top:60px;
+  font-size: 18px;
 }
 
 #timedescp{
   margin-top:75px;
+  font-size: 18px;
+
 
 }
 
 #uxdescp{
   margin-top:75px;
+  font-size: 18px;
 
+
+}
+
+#featuredesc{
+  font-size: 20px;
 }
 
 #try{
   position:relative;
-  top:80px;
-  left:250px;
+  top:50px;
+  left:180px;
 }
 
 h2{
