@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import NavBar from './components/NavBar';
 import Home from './components/Home';
+import Solution from './components/Solution';
 import Features from './components/Features';
 import Support from './components/Support';
 import './App.css';
@@ -25,6 +26,7 @@ class App extends Component {
         </header>
   
           <Home/>
+          <Solution/>
           <Features/>
           <Support/>
   

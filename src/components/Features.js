@@ -32,6 +32,7 @@ export default class Features extends Component{
 
     render(){
         return(
+
         <div className="features">
             <div className="flex">
 

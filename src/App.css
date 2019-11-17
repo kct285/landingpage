@@ -190,6 +190,39 @@ nav a:hover {
   z-index: 99;
 }
 
+.solutiontext{
+  padding-top:30px;
+  text-align: center;
+  font-size: 23px;
+  padding-left:50px;
+}
+
+.solutiontext1{
+  font-size:23px;
+  text-align: center;
+  padding-top:130px;
+  padding-left:50px;
+
+}
+
+.highlight{
+  padding-top:20px;
+  text-align: center;
+  font-size: 28px;
+  color:darkslateblue;
+  padding:60px;
+
+}
+
+#harrison{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 40px;
+  padding-left:70px;
+  padding-top:60px;
+
+}
 
 
 .flex{
